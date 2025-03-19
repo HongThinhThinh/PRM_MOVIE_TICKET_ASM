@@ -17,6 +17,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         createProgressDialog();
         createAlertDialog();
+        // fix comment
     }
 
     public void createProgressDialog() {
