@@ -30,7 +30,13 @@ public class BannerMovieAdapter extends RecyclerView.Adapter<BannerMovieAdapter.
     @Override
     public BannerMovieViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         ItemBannerMovieBinding itemBannerMovieBinding = ItemBannerMovieBinding.inflate(LayoutInflater.from(parent.getContext()), parent, false);
+
+        
         return new BannerMovieViewHolder(itemBannerMovieBinding);
+
+
+
+        
     }
 
     @Override
