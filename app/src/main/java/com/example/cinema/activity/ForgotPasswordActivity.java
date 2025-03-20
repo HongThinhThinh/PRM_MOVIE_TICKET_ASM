@@ -11,7 +11,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class ForgotPasswordActivity extends BaseActivity {
 
     private ActivityForgotPasswordBinding mActivityForgotPasswordBinding;
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +25,7 @@ public class ForgotPasswordActivity extends BaseActivity {
     private void onClickValidateResetPassword() {
         String strEmail = mActivityForgotPasswordBinding.edtEmail.getText().toString().trim();
         if (StringUtil.isEmpty(strEmail)) {
+            // show error
             Toast.makeText(ForgotPasswordActivity.this, getString(R.string.msg_email_require), Toast.LENGTH_SHORT).show();
         } else if (!StringUtil.isValidEmail(strEmail)) {
             Toast.makeText(ForgotPasswordActivity.this, getString(R.string.msg_email_invalid), Toast.LENGTH_SHORT).show();
