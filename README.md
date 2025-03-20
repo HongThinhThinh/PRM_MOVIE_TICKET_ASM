@@ -4,7 +4,7 @@
 This is a movie ticket booking application for the Android platform, allowing users to easily register, book tickets, make payments, and manage their booking history. The app also supports management functions for cinema administrators.
 
 ## Technologies Used
-- **Programming Language:** Java/Kotlin
+- **Programming Language:** Java
 - **Database:** Firebase Realtime Database
 - **Development Tool:** Android Studio
 - **Key Libraries:**
