@@ -4,7 +4,7 @@ public class ConstantKey {
   // Định dạng email dành riêng cho admin (có thể dùng để kiểm tra email admin)
 public static final String ADMIN_EMAIL_FORMAT = "@admin.com";  
 
-
+// Định dạng đơn vị tiền tệ chung, mặc định là "000 VNĐ"
 public static final String UNIT_CURRENCY = " 000 VNĐ";  
 
 
