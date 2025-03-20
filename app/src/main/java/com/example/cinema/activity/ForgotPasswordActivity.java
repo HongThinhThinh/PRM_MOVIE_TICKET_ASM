@@ -32,7 +32,7 @@ public class ForgotPasswordActivity extends BaseActivity {
             resetPassword(strEmail);
         }
     }
-
+//reset password Ussing Firebase
     private void resetPassword(String email) {
         showProgressDialog(true);
         FirebaseAuth auth = FirebaseAuth.getInstance();
