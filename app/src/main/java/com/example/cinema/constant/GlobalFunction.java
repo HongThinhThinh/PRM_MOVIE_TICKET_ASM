@@ -88,6 +88,7 @@ public class GlobalFunction {
         return list;
     }
 
+    // add list time firebase
     public static List<TimeFirebase> getListTimes() {
         List<TimeFirebase> list = new ArrayList<>();
         list.add(new TimeFirebase(1, "7AM - 8AM", getListSeats()));
