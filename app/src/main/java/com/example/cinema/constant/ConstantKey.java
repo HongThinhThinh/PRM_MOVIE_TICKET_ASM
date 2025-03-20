@@ -7,7 +7,7 @@ public static final String ADMIN_EMAIL_FORMAT = "@admin.com";
 // Định dạng đơn vị tiền tệ chung, mặc định là "000 VNĐ"
 public static final String UNIT_CURRENCY = " 000 VNĐ";  
 
-
+// Định dạng đơn vị tiền tệ chung, mặc định là "000 VNĐ"
 public static final String UNIT_CURRENCY_MOVIE = " 000 VNĐ / 1 vé";  
 
 public static final int PAYMENT_CASH = 1;  
